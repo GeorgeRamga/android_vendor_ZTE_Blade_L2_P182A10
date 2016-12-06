@@ -18,6 +18,7 @@
   />
   
   <!-- GOOGLE-->
+  <!-- Begin [Song gang, deleted for requirement, Ariston_P001957]
   <agps_profile code="GOOGLE nonTLS"
       slp_name="GOOGLE"
       backup_slp_name_var="GOOGLE_SPL_Name"
@@ -26,7 +27,11 @@
       tls="0"
       show_type="0"
   />
+  End [Song gang, deleted for requirement, Ariston_P001957] -->
+  
   <!-- GOOGLE-->
+  
+  <!-- Begin [Song gang, deleted for requirement, Ariston_P001957]
   <agps_profile code="GOOGLE IP"
       slp_name="GOOGLE"
       backup_slp_name_var="GOOGLE_SPL_Name"
@@ -35,6 +40,7 @@
       tls="0"
       show_type="0"
   />
+  End [Song gang, deleted for requirement, Ariston_P001957] -->
   
   <!-- NOKIA-->
   <agps_profile code="NOKIA"
@@ -367,7 +373,7 @@
     cp_gemini_pref_sim="1"
     cp_up_selection="up"
     default_cdma_profile="CDMA1"
-    default_profile="NOKIA"
+    default_profile="GOOGLE"
     disable_after_reboot="no"
     ecid_enable="yes"
     gpevt="no"
